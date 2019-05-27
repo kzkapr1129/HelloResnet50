@@ -33,7 +33,7 @@ checkpoint_dir = os.path.dirname(checkpoint_path)
 cp_callback = keras.callbacks.ModelCheckpoint(checkpoint_path,
                                                  save_weights_only=True,
                                                  verbose=1,
-                                                 period=SAVE_CHECKPOINT_ONCE_IN_N_EPOCHS) # save checkpoint Once in 1 epoch times
+                                                 period=SAVE_CHECKPOINT_ONCE_IN_N_EPOCHS) # save checkpoint once in N epoch times
 
 # start trainning
 model = keras.applications.resnet50.ResNet50(weights=None, classes=NUM_CLASSES)
