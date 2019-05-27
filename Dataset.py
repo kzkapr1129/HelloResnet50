@@ -49,7 +49,7 @@ def loadData(dir):
 #      ┃  ┗ *.png
 #      ┣ foo ※ CLASSES[1]の文字列
 #      ┃  ┗ *.png
-#      ┗ foo ※ CLASSES[2]の文字列
+#      ┗ hoge ※ CLASSES[2]の文字列
 #            ┗ *.png
 ###
 def loadTrain():
@@ -64,7 +64,7 @@ def loadTrain():
 #      ┃  ┗ *.png
 #      ┣ foo ※ CLASSES[1]の文字列
 #      ┃  ┗ *.png
-#      ┗ foo ※ CLASSES[2]の文字列
+#      ┗ hoge ※ CLASSES[2]の文字列
 #            ┗ *.png
 ###
 def loadTest():
