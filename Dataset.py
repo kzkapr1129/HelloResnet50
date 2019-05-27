@@ -3,6 +3,7 @@ import glob
 import cv2
 
 CLASSES = ['bar', 'foo', 'hoge']
+NUM_CLASSES = len(CLASSES)
 DIR_TRAIN = 'train'
 DIR_TEST = 'test'
 
